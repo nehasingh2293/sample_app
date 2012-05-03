@@ -1,4 +1,11 @@
 <% provide (:title, 'Home')%>
+
+<% if signed_in?%>
+
+<%else%>
+
+<%end%>
+
 <div class="center hero-unit">
   <h1>Welcome to the Sample App</h1>
 
